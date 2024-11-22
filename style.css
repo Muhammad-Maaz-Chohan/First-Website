@@ -1,0 +1,170 @@
+header{
+    font-family: sans-serif;
+    margin-left: -10px;
+    margin-right: 0px;
+}
+
+nav{
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo{
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    float: left;
+}
+
+.register a{
+    text-decoration: none;
+    color: black;
+    padding: 8px 15px;
+    border-radius: 30px;
+    background-color: red;
+    
+}
+
+img{
+    width: 30px;
+    height: 30px;
+}
+
+head{
+    padding: 100px;
+
+}
+h6{
+    color: red;
+    float: left;
+    margin-top: -58px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%,50);
+
+}
+.danner img{
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-top: -58px;
+    position: absolute;
+    top: 45%;
+    right: 30%;
+    transform: translate(-50%,50);
+}
+* Dono buttons ke liye common border styling */
+input[type="submit"], input[type="send"] {
+  border: 3px solid black; /* Yeh dono buttons ki border size hai */
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+  /* Submit button ke liye specific background color */
+input[type="submit"] {
+    background-color: orange;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 30px;
+    margin-top: -58px;
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    transform: translate(-50%,50);
+ }
+ /* Send button ke liye specific background color */
+input[type="send"] {
+    background-color:white;
+    padding: 8px 15px;
+    border-radius: 30px;
+    color: black;
+    margin-top: -58px;
+    position: absolute;
+    top: 80%;
+    left: 21%;
+    transform: translate(-50%,50);
+  }
+  
+  /* Submit button hover effect */
+  input[type="submit"]:hover {
+    background-color: orange;
+    
+  }
+  
+  /* Send button hover effect */
+  input[type="send"]:hover {
+    background-color: hsl(157, 40%, 44%);
+  }
+.three{
+    float: left;
+    margin-top: -58px;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    transform: translate(-50%,50);
+}
+
+.four{
+    float: left;
+    margin-top: -58px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    transform: translate(-50%,50)
+    
+}
+h1{
+    float: left;
+    margin-top: -58px;
+    position: absolute;
+    top: 55%;
+    left: 10%;
+    transform: translate(-50%,50);
+}
+.navbar{
+    float: right;
+    margin-top: 250px;
+    list-style: none;
+    margin-right: 30px;
+}
+.navbar ul li{
+    list-style: none;
+}
+.contact{
+    margin-top: 500px;
+    margin-left: 250px;
+}
+.five{
+    margin-left: 170px;
+}
+.box{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: -120px;
+}
+
+.six{
+    margin-left: 550px;
+}
+
+.active{
+    float: right;
+    margin-right: 150px;
+    margin-top: -120px;
+
+}
+
+.seven{
+    margin-left: 1100px;
+    margin-top: -50px;
+    font-size: 10px;
+}
